@@ -34,6 +34,7 @@ TRectangle operator*(int k, const TRectangle &r) {
 }
 
 TRectangle operator*(const TRectangle &r, int k) {
+    
     return operator*(k, r);
 }
 
